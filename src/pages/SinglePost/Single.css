@@ -1,0 +1,40 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 99%; 
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+
