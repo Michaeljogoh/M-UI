@@ -45,13 +45,13 @@ function Navbar() {
                   <Link to='/' class="nav-link active">Home</Link>
                 </li>
                 <li class="nav-item">
-                <Link to='/write' class="nav-link active">Write</Link>
+                <Link to='/write' onClick={() => {window.location.href="/write"}} class="nav-link active">Write</Link>
                 </li>
                 <li class="nav-item">
-                <Link to='/portfolio' class="nav-link active">Portfolio</Link>
+                <Link to='/portfolio' onClick={() => {window.location.href="/portfolio"}}  class="nav-link active">Portfolio</Link>
                 </li>
                 <li class="nav-item">
-                <Link to='/contact' class="nav-link active">Contact</Link>
+                <Link to='/contact' onClick={() => {window.location.href="/contact"}}  class="nav-link active">Contact</Link>
                 </li>
                 <li class="nav-item dropdown">
                   <a
